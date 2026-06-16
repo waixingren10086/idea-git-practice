@@ -6,4 +6,9 @@ public class User {
         this.username = username;
         this.password = password;
     }
+    private String age;
+    public String getAge() {
+        return age;
+    }
+    public void setAge(String age) {}
 }
